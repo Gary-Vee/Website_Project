@@ -1,0 +1,286 @@
+/* Imanol Aracena imported poppins */
+/* import poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Annie Jimenez starts here on coding */
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    background-color: #eff0f3;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    padding-left: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #0d0d0d; */
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer-history {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+}
+
+label {
+    margin-top: 10px;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.home p {
+    padding: 10px 20px;
+    margin: 10px 0px;
+}
+
+#sub-field {
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 2px solid #eff0f3;
+}
+
+.navigation-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+.drawing {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* Annie Jimenez ends here on coding */
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#sub-button {
+    background-color: #6281e6;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+}
+
+#sub-button:hover {
+    background-color: #3c69ff;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+
+#sub-field:focus {
+    outline: none;
+    border: 2px solid #3c69ff;
+    transition: all 200ms ease-in-out;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #c30900;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: white;
+    transition: all 200ms ease-in-out;
+    color: black;
+    border-radius: 10px;
+}
+
+.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+i.fa-brands {
+    margin: 0px 10px;
+    font-size: 24px;
+    color: #6281e6;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+/* img:hover {
+    transform: scale(0.9);
+    transition: all 400ms ease-in-out;
+  } */
+
+.image-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+}
+
+.image-container img {
+    width: 50%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
+.sections {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.sections p {
+    padding: 20px 40px;
+    background-color: #6281e6;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.history-dis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+
+}
+
+.info a {
+    text-decoration: none;
+    color: #325ef1;
+}
+
+.info a:hover {
+    color: #809cfa;
+    transition: all 200ms ease-in-out;
+
+}
+
+.team-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.member-card {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.member-card img {
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+
+}
+
+.member-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px
+}
+
+.member-position {
+    display: flex;
+    margin-right: auto;
+}
+
+.imgpay {
+    align-content: right;
+    display: flex;
+    width: 566px;
+    height: auto;
+    float: right;
+    padding: 0px 20px;
+    border-radius: 10%;
+
+}
+/* Imanol Aracena ends here on coding */
